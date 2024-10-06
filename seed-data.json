@@ -1,0 +1,874 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "email": "editor@example.com",
+      "name": "Editor User",
+      "password": "password",
+      "role": "editor"
+    }
+  ],
+  "types": [
+    {
+      "name": "Text"
+    },
+    {
+      "name": "Image"
+    },
+    {
+      "name": "Video"
+    },
+    {
+      "name": "Audio"
+    },
+    {
+      "name": "PDF"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Colonialism & Power",
+      "rfid": "0A1B2C3D4E5F"
+    },
+    {
+      "name": "Codifying Enslavement",
+      "rfid": "1F2E3D4C5B6A"
+    },
+    {
+      "name": "The Age Of Revolution",
+      "rfid": "ABC123DEF456"
+    },
+    {
+      "name": "Creating & Expanding The Slavery Empire",
+      "rfid": "FEDCBA987654"
+    },
+    {
+      "name": "The Fall Of The Slavery Regime",
+      "rfid": "112233445566"
+    },
+    {
+      "name": "Reconstruction",
+      "rfid": "A1B2C3D4E5F6"
+    },
+    {
+      "name": "Remembering Slavery",
+      "rfid": "9876543210AB"
+    },
+    {
+      "name": "Education",
+      "rfid": "1234567890AB"
+    },
+    {
+      "name": "Health",
+      "rfid": "AABBCCDDEEFF"
+    },
+    {
+      "name": "Wealth",
+      "rfid": "0F1E2D3C4B5A"
+    },
+    {
+      "name": "Lorem",
+      "rfid": "0FDJN32JDSS3"
+    }
+  ],
+  "entries": [
+    {
+      "title": "Lorem Ipsum Dolor",
+      "summary": "The rise and impact of colonialism.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida. Suspendisse potenti.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus.",
+        "text": "",
+        "caption": ""
+      },
+      "image": {
+        "file": "",
+        "text": "",
+        "caption": ""
+      },
+      "video": {
+        "file": "",
+        "text": "",
+        "caption": ""
+      },
+      "type": "Text",
+      "tags": [
+        "Colonialism & Power",
+        "Codifying Enslavement",
+        "Health"
+      ],
+      "metadata": {
+        "citations": [
+          "Source 1",
+          "Source 2"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Sed Amet Consectetur",
+      "summary": "How enslavement was codified in law.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image1.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Codifying Enslavement",
+        "The Age Of Revolution"
+      ],
+      "metadata": {
+        "citations": [
+          "Source A",
+          "Source B"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Ut Vehicula Dolor",
+      "summary": "Revolution and its global effects.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "The Age Of Revolution",
+        "Creating & Expanding The Slavery Empire"
+      ],
+      "metadata": {
+        "citations": [
+          "Source X",
+          "Source Y"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Pellentesque Nec Ligula",
+      "summary": "The expansion of the slavery empire.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio id ligula volutpat scelerisque. Ut vehicula dui sit amet dolor fermentum, vitae pulvinar libero venenatis.\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus.\n\nNullam a metus ac sapien feugiat vestibulum vel nec felis. Vivamus id lacus a nibh lobortis tincidunt non at nisl."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Creating & Expanding The Slavery Empire",
+        "The Fall Of The Slavery Regime",
+        "Reconstruction",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source C",
+          "Source D"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Quisque Consectetur Volutpat",
+      "summary": "The fall of the slavery regime.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image2.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "The Fall Of The Slavery Regime",
+        "Reconstruction"
+      ],
+      "metadata": {
+        "citations": [
+          "Source E",
+          "Source F"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Vestibulum Ante Ipsum",
+      "summary": "Reconstruction after the fall.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video2.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "Reconstruction",
+        "Remembering Slavery",
+        "Education",
+        "Health",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source G",
+          "Source H"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Nullam Fringilla Velit",
+      "summary": "How societies remember slavery.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Remembering Slavery",
+        "Education"
+      ],
+      "metadata": {
+        "citations": [
+          "Source I",
+          "Source J"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Sed Auctor Varius",
+      "summary": "Education's role in social change.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image1.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Education",
+        "Health"
+      ],
+      "metadata": {
+        "citations": [
+          "Source K",
+          "Source L"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Ut Vehicula Ante",
+      "summary": "Health disparities and historical roots.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "Health",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source M",
+          "Source N"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Fusce Sit Amet",
+      "summary": "The distribution of wealth and its roots.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Wealth",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source O",
+          "Source P"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "2Aenean In Lectus",
+      "summary": "The legacy of colonialism and power.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image1.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Colonialism & Power",
+        "The Age Of Revolution"
+      ],
+      "metadata": {
+        "citations": [
+          "Source Q",
+          "Source R"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "3Morbi Volutpat Dolor",
+      "summary": "The codification of enslavement in law.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "Codifying Enslavement",
+        "Creating & Expanding The Slavery Empire"
+      ],
+      "metadata": {
+        "citations": [
+          "Source S",
+          "Source T"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Vivamus Lacinia4",
+      "summary": "The revolutionary era and its consequences.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "The Age Of Revolution",
+        "Reconstruction",
+        "Health"
+      ],
+      "metadata": {
+        "citations": [
+          "Source U",
+          "Source V"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "In Hendrerit Sapien5",
+      "summary": "Expansion and the slavery empire.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image2.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Creating & Expanding The Slavery Empire",
+        "Remembering Slavery"
+      ],
+      "metadata": {
+        "citations": [
+          "Source W",
+          "Source X"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Etiam Ac Ligula6",
+      "summary": "The fall and aftermath of the slavery regime.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "The Fall Of The Slavery Regime",
+        "Education"
+      ],
+      "metadata": {
+        "citations": [
+          "Source Y",
+          "Source Z"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Mauris Suscipit Libero7",
+      "summary": "Reconstruction and its long-term impact.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Reconstruction",
+        "Health",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source A1",
+          "Source B1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Curabitur Velit Justo8",
+      "summary": "The memory of slavery in modern times.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image2.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Remembering Slavery",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source C1",
+          "Source D1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Proin Tempus Orci1",
+      "summary": "Education as a tool for societal progress.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video2.jpg"
+      },
+      "type": "Text",
+      "tags": [
+        "Education",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source E1",
+          "Source F1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Integer Pulvinar 3",
+      "summary": "Health challenges post-slavery.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Health",
+        "Colonialism & Power",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source G1",
+          "Source H1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Aliquam Eget Sem 6",
+      "summary": "Wealth distribution and its history.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Wealth",
+        "Codifying Enslavement"
+      ],
+      "metadata": {
+        "citations": [
+          "Source I1",
+          "Source J1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Fusce Sit Ame7t",
+      "summary": "The distribution of wealth and its roots.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Wealth",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source O",
+          "Source P"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Aenean In Lec10tus",
+      "summary": "The legacy of colonialism and power.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image1.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Colonialism & Power",
+        "The Age Of Revolution"
+      ],
+      "metadata": {
+        "citations": [
+          "Source Q",
+          "Source R"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Morbi Volutpat Dolor20",
+      "summary": "The codification of enslavement in law.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "Codifying Enslavement",
+        "Creating & Expanding The Slavery Empire"
+      ],
+      "metadata": {
+        "citations": [
+          "Source S",
+          "Source T"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Vivamus Lacinia 30",
+      "summary": "The revolutionary era and its consequences.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "The Age Of Revolution",
+        "Reconstruction",
+        "Health"
+      ],
+      "metadata": {
+        "citations": [
+          "Source U",
+          "Source V"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "In Hendrerit Sapien 11",
+      "summary": "Expansion and the slavery empire.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image2.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Creating & Expanding The Slavery Empire",
+        "Remembering Slavery"
+      ],
+      "metadata": {
+        "citations": [
+          "Source W",
+          "Source X"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Etiam Ac Ligula 12",
+      "summary": "The fall and aftermath of the slavery regime.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video1.jpg"
+      },
+      "type": "Video",
+      "tags": [
+        "The Fall Of The Slavery Regime",
+        "Education"
+      ],
+      "metadata": {
+        "citations": [
+          "Source Y",
+          "Source Z"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Mauris Suscipit Libero 13",
+      "summary": "Reconstruction and its long-term impact.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Reconstruction",
+        "Health",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source A1",
+          "Source B1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Curabitur Velit Justo 14",
+      "summary": "The memory of slavery in modern times.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-image2.jpg"
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Image",
+      "tags": [
+        "Remembering Slavery",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source C1",
+          "Source D1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Proin Tempus Orci 15",
+      "summary": "Education as a tool for societal progress.",
+      "text": {
+        "file": " "
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": "https://shockoe-lab-assets.s3.amazonaws.com/000000000000000000000000/test-video2.jpg"
+      },
+      "type": "Text",
+      "tags": [
+        "Education",
+        "Lorem"
+      ],
+      "metadata": {
+        "citations": [
+          "Source E1",
+          "Source F1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Integer Pulvinar 16",
+      "summary": "Health challenges post-slavery.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Health",
+        "Colonialism & Power",
+        "Wealth"
+      ],
+      "metadata": {
+        "citations": [
+          "Source G1",
+          "Source H1"
+        ],
+        "relatedEntries": []
+      }
+    },
+    {
+      "title": "Aliquam Eget Sem 18",
+      "summary": "Wealth distribution and its history.",
+      "text": {
+        "file": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin tempus orci eget nulla ornare, nec laoreet nisl gravida.\n\nMauris suscipit libero et ante vehicula, sit amet dignissim arcu bibendum. Phasellus a odio ac urna cursus malesuada vel et nulla.\n\nCras pharetra bibendum libero, in pharetra nisl facilisis ac. Vestibulum ac dui fermentum, tempus ligula at, venenatis metus."
+      },
+      "image": {
+        "file": " "
+      },
+      "video": {
+        "file": " "
+      },
+      "type": "Text",
+      "tags": [
+        "Wealth",
+        "Codifying Enslavement"
+      ],
+      "metadata": {
+        "citations": [
+          "Source I1",
+          "Source J1"
+        ],
+        "relatedEntries": []
+      }
+    }
+  ]
+}
