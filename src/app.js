@@ -62,36 +62,40 @@ io.on('connection', (socket) => {
   });
 });
 
-const port = new SerialPort({
-  path: process.env.RFID_READER,
-  baudRate: 9600,
+app.get('/', (req, res) => {
+  res.send('shokoe lab api');
 });
 
-const parser = port.pipe(new ReadlineParser({ delimiter: '\r\n' }));
+// const port = new SerialPort({
+//   path: process.env.RFID_READER,
+//   baudRate: 9600,
+// });
 
-parser.on('data', async (data) => {
-  console.log('RFID Data:', data);
-  try {
-    const theme = await Theme.findOne({ rfid: data.trim() }); // Trim the data to remove extra spaces or newline characters
-    if (theme) {
-      console.log(`Theme found: ${theme._id}`);
-      io.emit('themeId', { theme: theme._id });
-    } else {
-      console.log('No theme found for RFID:', data);
-      io.emit('themeId', { theme: null }); // Emit null if no theme is found
-    }
-  } catch (err) {
-    console.error('Error looking up theme:', err);
-    io.emit('error', 'Error looking up theme');
-  }
-});
+// const parser = port.pipe(new ReadlineParser({ delimiter: '\r\n' }));
 
-port.on('open', () => {
-  console.log('Serial Port Opened');
-});
+// parser.on('data', async (data) => {
+//   console.log('RFID Data:', data);
+//   try {
+//     const theme = await Theme.findOne({ rfid: data.trim() }); // Trim the data to remove extra spaces or newline characters
+//     if (theme) {
+//       console.log(`Theme found: ${theme._id}`);
+//       io.emit('themeId', { theme: theme._id });
+//     } else {
+//       console.log('No theme found for RFID:', data);
+//       io.emit('themeId', { theme: null }); // Emit null if no theme is found
+//     }
+//   } catch (err) {
+//     console.error('Error looking up theme:', err);
+//     io.emit('error', 'Error looking up theme');
+//   }
+// });
 
-port.on('error', (err) => {
-  console.error('Error: ', err.message);
-});
+// port.on('open', () => {
+//   console.log('Serial Port Opened');
+// });
+
+// port.on('error', (err) => {
+//   console.error('Error: ', err.message);
+// });
 
 server.listen(process.env.PORT, () => console.log('Server running'));
